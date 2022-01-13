@@ -4,6 +4,17 @@ This small script takes any decklist from an MTGO list and pulls all card images
 
 INSTRUCTIONS FOR USE
 
+INSTALLING PYTHON:
+If you have never used python before - yo'll need to install the environment. The environment I have is anaconda, which you can download below:
+https://www.anaconda.com/products/individual
+
+It might be too much for your needs - if you know of a simpler python environment feel free to use any one you like.
+
+You may also need to install the requests package. You can use this link to download that once you have installed python.
+Installing the requests package -  https://t.co/uQMeCcwCkC
+
+Okay now that python is set up you're ready to go!
+
 0-Download files included in the project. There should be two - a deck txt file and a python runner file
 
 1-Go to https://scryfall.com/docs/api/bulk-data
