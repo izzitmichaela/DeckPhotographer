@@ -33,7 +33,7 @@ for item in deck:
     for card in cards:
         if card['name'] == currentCard and card['lang'] == 'en' and found == 0:
             r = requests.get(card['image_uris']['png'])
-            card_name=card["collector_number"] + "_" + card['name'] + '.jpg'
+            card_name=card["collector_number"] + "_" + card['name'] + '.png'
             open(card_name, 'wb').write(r.content)
             found = 1
             
