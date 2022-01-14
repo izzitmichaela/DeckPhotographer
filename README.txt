@@ -9,7 +9,7 @@ INSTRUCTIONS FOR USE
 
 CREATING THE PYTHON ENVIRONMENT:
 
-First, you need python. For this, I installed anaconda, which is a python package that gives you all the toools you need to run programs. You can download the environment here:
+First, you need python. For this, I installed anaconda, which is a python package that gives you all the tools you need to run programs. You can download the environment here:
 
 https://www.anaconda.com/products/individual
 
