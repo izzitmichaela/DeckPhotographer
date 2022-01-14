@@ -81,7 +81,8 @@ def ask_for_file_path_tkinter():
     return filedialog.askopenfilename()
 
 def main():
-    file_path = sys.argv[1]
+    # file_path = sys.argv[1]
+    file_path = ask_for_file_path_tkinter()
     card_data = extract_card_info_from_file(file_path)
     get_card_images(card_data)
 
