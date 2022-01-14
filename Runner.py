@@ -17,6 +17,7 @@ import re
 import json
 import requests
 import os
+import sys
 
 def extract_card_info_from_file(file_path):
     """Pull card names, or collector number/set pairs, out of file"""
@@ -74,13 +75,14 @@ def get_card_images(card_data):
     else:
         print("Done!") 
 
-def ask_for_file_path():
+def ask_for_file_path_tkinter():
     root = tk.Tk()
     root.withdraw()
     return filedialog.askopenfilename()
 
 def main():
-    card_data = extract_card_info_from_file(ask_for_file_path())
+    file_path = sys.argv[1]
+    card_data = extract_card_info_from_file(file_path)
     get_card_images(card_data)
 
 if __name__ == "__main__":
