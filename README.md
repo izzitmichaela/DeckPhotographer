@@ -6,8 +6,8 @@ This work is free of course, but if you like mtg, gadgetry, and nerd stuff feel 
 
 ## Usage
 
-1. If you haven't already, install a Python environment, such as [Anaconda](https://www.anaconda.com/products/individual).
-1. Download files included in the project. There should be two - the python runner file, and requirements.txt
+1. Download and install [Python](https://www.python.org/downloads/).
+1. Download the files included in this project. There should be two - the python runner file, and requirements.txt.
 1. Install the script's dependencies by opening a command line and running the following command:
 
     `python -m pip install -r requirements.txt`
