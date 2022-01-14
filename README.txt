@@ -2,6 +2,8 @@ README
 
 This small script takes any decklist from an MTGO list and pulls all card images as jpg files into your directory.
 
+This work is free of course, but if you like mtg, gadgetry, and nerd stuff feel free to follow me on https://www.twitter.com/izzitmichaela for more projects!
+
 INSTRUCTIONS FOR USE
 
 INSTALLING PYTHON:
