@@ -3,15 +3,17 @@ README
 This small script takes any decklist from an MTGO list and pulls all card images as jpg or png files into your directory.
 
 If you like this project or have comments, feel free to reach out on twitter @izzitmichaela!
+https://twitter.com/izzitmichaela
 
 INSTRUCTIONS FOR USE
 
 CREATING THE PYTHON ENVIRONMENT:
 
-First, you need python. For this, I installed anaconda, which is a python package that gives you all the toools you need to run programs. You can download the program here:
+First, you need python. For this, I installed anaconda, which is a python package that gives you all the toools you need to run programs. You can download the environment here:
+
 https://www.anaconda.com/products/individual
 
-Within the Anaconda package is a program called Spyder. This is what I used to write and run the program. Open it up, and ensure it is working.
+Within the Anaconda package is a program called Spyder. This is what I used to write and run the program. Open it up, and ensure it is working (you can either go in anaconda and launch spyder from there or simply press your windows or program key and start typing Spyder and it'll show up).
 
 Now you are ready to begin! Don't worry, the rest is much less involved!
 
@@ -30,5 +32,9 @@ RUNNING THE PROGRAM
 The jpg files should appear in your directory after a moment or two!
 
 Enjoy!
+
+Note, if you are experiencing an error involving it not recognizing the 'requests' module, you may need to install the library using the tutorial below. If you installed anaconda and spyder correctly however, you shouldn't need to worry.
+
+https://www.agiratech.com/install-requests-library-in-python
 
 
